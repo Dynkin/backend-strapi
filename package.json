@@ -9,7 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "develop:docker:db": "docker-compose up -d strapiDB && yarn develop",
-    "develop:docker:full": "docker-compose up"
+    "develop:docker:full": "docker-compose up",
+    "deploy": "sh deploy-heroku.sh"
   },
   "devDependencies": {},
   "dependencies": {
